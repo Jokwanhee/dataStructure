@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="271c1892-a7d6-44a0-88a9-21e6362c81eb" name="Changes" comment="hanoiTower">
+    <list default="true" id="271c1892-a7d6-44a0-88a9-21e6362c81eb" name="Changes" comment="stack_중위표기식, 후위표기식 전환">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/testPro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -44,7 +44,28 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.infixToPostfix">
+  <component name="RunManager" selected="Python.DFS">
+    <configuration name="DFS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dataStructure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stack/DFS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="LIFO" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dataStructure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,27 +129,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lineEditor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="dataStructure" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/lineEditor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="postfixCalculate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dataStructure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DFS" />
         <item itemvalue="Python.infixToPostfix" />
         <item itemvalue="Python.postfixCalculate" />
         <item itemvalue="Python.bracketTest" />
         <item itemvalue="Python.LIFO" />
-        <item itemvalue="Python.lineEditor" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +232,35 @@
       <option name="project" value="LOCAL" />
       <updated>1643268388293</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="stack_LIFO">
+      <created>1644156970196</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1644156970196</updated>
+    </task>
+    <task id="LOCAL-00011" summary="stack_괄호 검사">
+      <created>1644157020643</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1644157020643</updated>
+    </task>
+    <task id="LOCAL-00012" summary="stack_후위표기식_계산기">
+      <created>1644157053973</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644157053973</updated>
+    </task>
+    <task id="LOCAL-00013" summary="stack_중위표기식, 후위표기식 전환">
+      <created>1644157074504</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644157074504</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,6 +285,10 @@
     <MESSAGE value="run time check" />
     <MESSAGE value="fibonacci" />
     <MESSAGE value="hanoiTower" />
-    <option name="LAST_COMMIT_MESSAGE" value="hanoiTower" />
+    <MESSAGE value="stack_LIFO" />
+    <MESSAGE value="stack_괄호 검사" />
+    <MESSAGE value="stack_후위표기식_계산기" />
+    <MESSAGE value="stack_중위표기식, 후위표기식 전환" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack_중위표기식, 후위표기식 전환" />
   </component>
 </project>
